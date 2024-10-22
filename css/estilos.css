@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h3{ 
+    line-height: 2em;
+    font-size: 1.75em;
+    margin-top: 0.2em;
+    font-weight: 400;
+}
+
+h1, h3{
+    font-family: "Oswald", sans-serif;
+    color: #34495E;
+}
+
+h4{
+    font-size: 1em;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    background-color: #FDF2E9;
+    color: #34495E;
+
+}
+
+a {
+    width: 100px;
+    height: 30px;
+    background-color: #34495E;
+    color: white;
+    border: 1px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+  
+a:hover {
+    background-color: #2980b9; 
+}
+
+p{
+    font-size: 1em;
+    text-transform:initial;
+}
+
+header{
+    width: 83.33%;
+    margin: auto;
+}
+
+main{
+    width: 83.33%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #2C313F;
+}
+  
+
+#imgs{
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgs img:hover {
+    border-color: #34495E;
+    border-width: 5px; 
+    transition: all 0.4s ease-in-out; 
+}
+
+img{
+    width: 30%;
+    margin: 4.5em 0;
+    border: 3px solid rgb(167, 167, 167);
+    border-radius: 10px;
+}
+
+
+[src="imagenes/img4.jpg"] {
+    display: block;
+    margin: 30px auto 30px auto;
+
+}
+
+
+
+#texto-2{
+    width: 50%;
+    padding-left: 1.75em;
+}
+
+@media(max-width:768px){
+    body{
+        font-size: 70%;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    h3{
+        font-size:1em;
+    }
+
+
+}
